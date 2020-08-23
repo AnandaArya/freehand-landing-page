@@ -1,0 +1,147 @@
+
+
+.navbar-brand, .navbar-utama a {
+    color: black !important;
+}
+
+.navbar-utama a{
+    margin-left: 25px;
+
+}
+
+.tombol-sign:hover {
+    background-color: white!important;
+}
+
+.banner h3{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 19px;
+}
+
+.services, .services2 {
+    margin-top: 122px;
+}
+
+@media (max-width: 991.98px) { 
+    .services, .services2 {
+        margin-top: 100px;
+    }
+ }
+
+.services p, .services2 p{
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #87A1B6;
+}
+
+.services h3, .services2 h3 {
+    font-family: 'Nunito Sans';
+    font-size: 40px;
+    font-weight: 600;
+}
+
+@media (max-width: 991.98px) { 
+    .navbar-utama a{
+        margin-left: 0;
+    }
+ }
+
+
+/* ==== Bagian Plan ==== */
+
+.plan .border-biru {
+    border-top: 6px solid #0593FA;
+}
+
+.plan .harga-plan-biru {
+    color: #0593FA;
+}
+
+.plan .border-hijau {
+    border-top: 6px solid #56CBAE;
+}
+
+.plan .harga-plan-hijau {
+    color: #56CBAE;
+}
+
+.plan .border-merah {
+    border-top: 6px solid #FA6770;
+}
+
+.plan .harga-plan-merah {
+    color: #FA6770;
+}
+
+
+/* Terakhir */
+
+.akhir {
+    margin-top: 122px;
+}
+
+@media (max-width: 991.98px) { 
+    .akhir {
+        margin-top: 100px;
+    }
+}
+
+.akhir .bg-akhir {
+    background-image: url('../img/gambar-akhir.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 387px;
+    border-radius: 15px;
+}
+
+.akhir {
+    font-family: 'Roboto';
+    color: white;
+}
+
+.akhir .bg-akhir h3 {
+    font-size: 40px;
+    margin-top: 102px;
+}
+
+.akhir .bg-akhir p {
+    font-size: 18px;
+}
+
+.akhir .bg-akhir a {
+    font-size: 14px;
+}
+
+
+/* footer */
+.footer {
+    font-family: 'Roboto';
+    background-color: #16143D;
+    /* height: 350px; */
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-copyright a {
+    color: blue;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+
+
+
+
+
